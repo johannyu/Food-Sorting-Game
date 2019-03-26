@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sort Out Your Life</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="banner">
+        <h1 id="gameT">Sort Out Your Life</h1>
+    </div>
+
+    <div id="hud">
+        <span id="score">score</span>
+        <p id="timers">time</p>
+        <span id="highscore">high score</span>
+    </div>
+
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+
+    <div id="bHud">
+        <p id="energy">Energy</p>
+        <div id="bar"></div>
+    </div>
+
+    <img src = "img/Down.png">
+
+    <div id="hud">
+        <h2>Instructions:</h2>
+        <p id="help">
+            PRESS ENTER TO START A NEW GAME, USE ARROW KEYS TO MOVE.
+            <br><br><br>
+            This is not a game, it's real life. Eat as much good food as you can before you die to earn coins.
+            Careful not to eat the unhealthy foods, your lifespan will shorten; you'll lose energy as well.
+            
+            <br>
+            You also lose more energy as you age, so don't skip meals! 
+            
+            <br><br><br>
+            There are 3 categories of food: healthy, neutral, and unhealthy.
+            <br><br>
+            Healthy: Earns 2 coins and increases energy significantly.
+            <br>
+            Neutral: Earns 1 coin and Increases energy slightly.
+            <br>
+            Unhealthy: Minus 2 years of your total lifespan and lose energy.
+        </p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

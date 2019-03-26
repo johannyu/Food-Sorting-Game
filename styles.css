@@ -1,0 +1,93 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#myCanvas {
+    border: solid black;
+    display: block;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+/* Main Title */
+#banner {
+    background-color: black;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#gameT {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* Heads Up Display */
+#hud {
+    margin: 0px auto 80px auto;
+    padding: 0px;
+    width: 800px;
+}
+
+#score {
+    float: left;
+    margin: 0px;
+    width: 33.3%;
+    font-size: 24px;
+}
+
+#highscore {
+    float: right;
+    margin: 0px;
+    text-align: right;
+    width: 33.3%;
+    font-size: 24px;
+}
+
+#timers {
+    float: left;
+    margin: 0px;
+    text-align: center;
+    width: 33.3%;
+    font-size: 24px;
+}
+
+/* Energy Meter */
+#bHud {
+    border: solid;
+    display: flex;
+    align-items: center;
+    margin: 10px auto 0px auto;
+    width: 800px;
+    height: 34px;  
+}
+#energy {
+    float: left;
+    margin: 0px 10px;
+    font-size: 24px;
+}
+
+#bar {
+    float: left;
+    background-color: black;
+    margin: 0px;
+    width: 80px;
+    height: 24px;
+}
+
+/* Instructions */
+h2 {
+    position: relative;
+    margin-top: 10px;
+}
+
+#help {
+    display: block;
+}
